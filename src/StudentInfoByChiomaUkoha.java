@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class StudentInfo {
+public class StudentInfoByChiomaUkoha {
     public static void main(String[]args) {
         int sumOfAges = 0;
         String[] names = new String[10];
@@ -10,7 +10,7 @@ public class StudentInfo {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < 10; i++) {
-            System.out.print("Enter the name of student" + (i + 1) + ":");
+            System.out.print("Enter the name of student studying Computer Science" + (i + 1) + ":");
             names[i] = scanner.nextLine();
 
             System.out.print("Enter the age of student" + (i+1) + ":");
